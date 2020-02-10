@@ -8,6 +8,7 @@ public class WriteNotepad {
 		String s="ashish";
 		FileOutputStream fout=new FileOutputStream("Write.txt");
 		fout.write(s.getBytes());
+		System.out.println("hello");
 		
 	}
 
